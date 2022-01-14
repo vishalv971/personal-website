@@ -47,3 +47,12 @@ h1, h2, h3, h4, h5 {
     from { opacity : 0}
     to { opacity : 100}
 }
+
+.project {
+    display : flex;
+}
+
+.project > div {
+    flex : 1;
+    margin: 10px;
+}

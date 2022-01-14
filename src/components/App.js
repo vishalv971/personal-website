@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import profile from '../assets/profile.png';
 import ContactMe from './ContactMe';
 import Header from './Header';
+import Projects from './Projects';
 import Title from './Title';
 
 
@@ -25,6 +26,8 @@ class App extends Component {
                 {
                     <button onClick={this.showAboutMe}>Read More</button>
                 }
+                <hr />
+                <Projects />
                 <hr />
                 <ContactMe />
                 <hr />
