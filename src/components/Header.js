@@ -12,7 +12,7 @@ class Header extends Component {
                 <div style={hyperLinkStyles}>
                     <a style={hyperLinkMargin}>About</a>
                     <a style={hyperLinkMargin}>Contact</a>
-                    <a style={hyperLinkMargin}>Blog</a>
+                    <a href='https://medium.com/@vishalv97' style={hyperLinkMargin}>Blog</a>
                 </div>
             </div>
         );
